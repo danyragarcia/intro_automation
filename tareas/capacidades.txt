@@ -1,0 +1,8 @@
+Login 
+Logout
+Like song
+Add song
+Delete song
+Edit Song
+About Song
+All Songs
