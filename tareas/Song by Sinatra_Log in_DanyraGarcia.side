@@ -1,0 +1,144 @@
+{
+  "id": "8ebd093f-9990-4d48-a337-8a1e51f024f8",
+  "version": "2.0",
+  "name": "Song by Sinatra_Log in_DanyraGarcia",
+  "url": "https://songs-by-sinatra.herokuapp.com/",
+  "tests": [{
+    "id": "7fcbc8b9-aa7e-4b7f-a98b-b06506b819af",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7e720416-4f3d-4346-9d3b-71286a4ab286",
+      "comment": "",
+      "command": "open",
+      "target": "https://songs-by-sinatra.herokuapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf54a841-f8f0-4155-8949-cd76d19879b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fce9c358-901a-4e9c-8ac8-3f8d02b01088",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        ["linkText=log in", "linkText"],
+        ["css=footer > a", "css:finder"],
+        ["xpath=//a[contains(text(),'log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"],
+        ["xpath=//a[contains(.,'log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96f2911c-a033-421d-9fd4-db1e37f96b47",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b664525-fcf8-4acd-9de8-f242519b167e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=username",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "745cd918-269f-44cf-a0c6-942f2a8e5e6b",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "frank"
+    }, {
+      "id": "c7a85edf-b8af-4122-8501-eae04ebb502f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfc3e8f9-a2cd-48fd-96fc-0c3261423062",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51099c28-703c-4bff-a73a-e2c8d1b11353",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "sinatra"
+    }, {
+      "id": "c8b3015a-245d-4714-a24b-a9146262ef59",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='Log In']",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "430138df-6b04-40bb-bc7a-ce70083adc92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flash",
+      "targets": [
+        ["css=.flash", "css:finder"],
+        ["xpath=//div[@id='flash']/div", "xpath:idRelative"],
+        ["xpath=//section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d2f333a-ecdf-40dd-865a-b76a2d5e82e6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.flash",
+      "targets": [],
+      "value": "You are now logged in as frank"
+    }]
+  }],
+  "suites": [{
+    "id": "7d4d7c3a-203a-4285-b03d-e0a48a7d3abd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7fcbc8b9-aa7e-4b7f-a98b-b06506b819af"]
+  }],
+  "urls": ["https://github.com/danyragarcia/intro_automation/tree/master/tareas", "https://songs-by-sinatra.herokuapp.com/"],
+  "plugins": []
+}
