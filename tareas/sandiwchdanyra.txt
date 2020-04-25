@@ -1,0 +1,15 @@
+Ingredientes:
+Pan
+Jamon
+Queso
+Mayonesa
+Mostaza
+Lechuga
+Tomate 
+Tocino
+
+Pasos:
+1.Ponerle mayonesa y mostaza a 2 panes
+2.Poner el jamon y queso a uno de los panes
+3.Poner lechuega, tomate y tocino
+4.Cerrar el pan
